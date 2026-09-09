@@ -5,6 +5,8 @@ build/
 dist/
 wheels/
 *.egg-info
+.python-version
+.gitignore
 
 # Virtual environments (Your local environment. uv.lock and pyproject.toml are used to recreate it anywhere)
 .venv
