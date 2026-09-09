@@ -7,7 +7,16 @@ authors = [
     { name = "DevPhilosopher", email = "woobaeldaw@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+    "numpy>=2.5.3",
+    "pandas>=3.0.5",
+    "pymysql>=1.2.0",
+    "python-dotenv>=1.2.3",
+    "ruff>=0.16.6",
+    "sqlalchemy>=2.0.52",
+]
 
 [project.scripts]
 dasales = "dasales:main"
