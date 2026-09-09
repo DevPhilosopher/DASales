@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments (Your local environment. uv.lock and pyproject.toml are used to recreate it anywhere)
+.venv
+
+#Cleaned data files.
+# folder: Never push raw or cleaned CSV/XLSX files to Git. Datasets can be large, clutter repos,
+# and may contain sensitive data. (Instead, link to the Kaggle source in your README).
+data/
+
+# / credentials: Any file containing MySQL passwords or database host connections.
+*.env
